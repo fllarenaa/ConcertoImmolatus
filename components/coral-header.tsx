@@ -21,7 +21,7 @@ export function CoralHeader() {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-3 text-balance bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-              Coral Católico
+              Concerto PSAMD
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto text-pretty">
               Louvando a Deus através da música sacra
