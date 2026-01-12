@@ -24,7 +24,7 @@ export type Compromisso = {
 export const compromissosData: Compromisso[] = [
   {
     id: "1",
-    nome: "1° Concerto de Páscoa EAC PSAMD",
+    nome: "1° Concerto de Páscoa PSAMD",
     imagem: "/igreja-catolica-pascoa.jpg",
     repertorioPdf: "/repertorios/pascoa-completo.pdf",
     videoYoutubeId: "AaV7WH-V0oI?si=el-2Isa_aUdyhZww",

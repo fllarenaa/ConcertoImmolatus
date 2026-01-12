@@ -12,34 +12,67 @@ type EventoCalendario = {
 }
 
 const eventos: EventoCalendario[] = [
+  // 🎵 Cristo Nossa Páscoa (3 ensaios)
+  { data: "2026-01-16", evento: "Ensaio - Cristo Nossa Páscoa 1" },
+  { data: "2026-01-21", evento: "Ensaio - Cristo Nossa Páscoa 2" },
+  { data: "2026-01-23", evento: "Ensaio - Cristo Nossa Páscoa 3" },
 
-  { data: "2026-01-12", evento: "Ensaio - Cristo Nossa Páscoa" },
-  { data: "2026-01-17", evento: "Ensaio - Cristo Nossa Páscoa" },
-  { data: "2026-01-19", evento: "Ensaio - Cristo Nossa Páscoa / O Cordeiro Que Foi Imolado" },
-  { data: "2026-01-24", evento: "Ensaio - O Cordeiro Que Foi Imolado" },
-  { data: "2026-01-26", evento: "Ensaio - O Crux Ave, Spes Unica" },
-  { data: "2026-01-31", evento: "Ensaio - O Crux Ave, Spes Unica" },
-  { data: "2026-02-02", evento: "Ensaio - Anima Christi" },
-  { data: "2026-02-07", evento: "Ensaio - Anima Christi" },
-  { data: "2026-02-09", evento: "Ensaio - Alleluia" },
-  { data: "2026-02-14", evento: "Ensaio - Alleluia / Laudate Dominum" },
-  { data: "2026-02-16", evento: "Ensaio - Laudate Dominum" },
-  { data: "2026-02-21", evento: "Ensaio - Regina Caeli" },
-  { data: "2026-02-23", evento: "Ensaio - Ave Verum Corpus" },
-  { data: "2026-02-28", evento: "Ensaio - Ave Verum Corpus" },
-  { data: "2026-03-02", evento: "Ensaio - Ó Hóstia Santa" },
-  { data: "2026-03-07", evento: "Ensaio - Ó Hóstia Santa" },
-  { data: "2026-03-09", evento: "Ensaio - O Senhor Ressuscitou" },
-  { data: "2026-03-14", evento: "Ensaio - O Senhor Ressuscitou" },
-  { data: "2026-03-16", evento: "Ensaio - Tarde Te Amei" },
-  { data: "2026-03-21", evento: "Ensaio - Tarde Te Amei" },
-  { data: "2026-03-23", evento: "Ensaio - Revisão Geral" },
-  { data: "2026-03-28", evento: "Ensaio - Revisão Geral" },
-  { data: "2026-03-30", evento: "Ensaio - Ensaio Final (geral)" },
-  { data: "2026-04-04", evento: "Ensaio Final - Geral / Passagem de Som" },
-  { data: "2026-04-05", evento: "Concerto de Páscoa" },
+  // 🎵 O Cordeiro Que Foi Imolado (3 ensaios)
+  { data: "2026-01-28", evento: "Ensaio - O Cordeiro Que Foi Imolado 1" },
+  { data: "2026-01-30", evento: "Ensaio - O Cordeiro Que Foi Imolado 2" },
+  { data: "2026-02-04", evento: "Ensaio - O Cordeiro Que Foi Imolado 3" },
 
+  // 🎵 O Crux Ave, Spes Unica (2 ensaios)
+  { data: "2026-02-06", evento: "Ensaio - O Crux Ave, Spes Unica 1" },
+  { data: "2026-02-11", evento: "Ensaio - O Crux Ave, Spes Unica 2" },
+
+  // 🎵 Anima Christi (3 ensaios)
+  { data: "2026-02-13", evento: "Ensaio - Anima Christi 1" },
+  { data: "2026-02-18", evento: "Ensaio - Anima Christi 2" },
+  { data: "2026-02-20", evento: "Ensaio - Anima Christi 3" },
+
+  // 🎵 Alleluia (3 ensaios)
+  { data: "2026-02-25", evento: "Ensaio - Alleluia 1" },
+  { data: "2026-02-27", evento: "Ensaio - Alleluia 2" },
+  { data: "2026-03-04", evento: "Ensaio - Alleluia 3" },
+
+  // 🎵 Laudate Dominum (3 ensaios)
+  { data: "2026-03-06", evento: "Ensaio - Laudate Dominum 1" },
+  { data: "2026-03-11", evento: "Ensaio - Laudate Dominum 2" },
+  { data: "2026-03-13", evento: "Ensaio - Laudate Dominum 3" },
+
+  // 🎵 Regina Caeli (3 ensaios)
+  { data: "2026-03-18", evento: "Ensaio - Regina Caeli 1" },
+  { data: "2026-03-20", evento: "Ensaio - Regina Caeli 2" },
+  { data: "2026-03-25", evento: "Ensaio - Regina Caeli 3" },
+
+  // 🎵 Ave Verum Corpus (3 ensaios)
+  { data: "2026-03-27", evento: "Ensaio - Ave Verum Corpus 1" },
+  { data: "2026-04-01", evento: "Ensaio - Ave Verum Corpus 2" },
+  { data: "2026-04-03", evento: "Ensaio - Ave Verum Corpus 3" },
+
+  // 🎵 Ó Hóstia Santa (3 ensaios)
+  { data: "2026-04-08", evento: "Ensaio - Ó Hóstia Santa 1" },
+  { data: "2026-04-10", evento: "Ensaio - Ó Hóstia Santa 2" },
+  { data: "2026-04-15", evento: "Ensaio - Ó Hóstia Santa 3" },
+
+  // 🎵 O Senhor Ressuscitou (3 ensaios)
+  { data: "2026-04-17", evento: "Ensaio - O Senhor Ressuscitou 1" },
+  { data: "2026-04-22", evento: "Ensaio - O Senhor Ressuscitou 2" },
+  { data: "2026-04-24", evento: "Ensaio - O Senhor Ressuscitou 3" },
+
+  // 🎵 Tarde Te Amei (3 ensaios)
+  { data: "2026-04-29", evento: "Ensaio - Tarde Te Amei 1" },
+  { data: "2026-05-01", evento: "Ensaio - Tarde Te Amei 2" },
+  { data: "2026-05-06", evento: "Ensaio - Tarde Te Amei 3" },
+
+  // 🎶 Revisões finais e concerto
+  { data: "2026-05-08", evento: "Ensaio - Revisão Geral 1" },
+  { data: "2026-05-13", evento: "Ensaio - Revisão Geral 2" },
+  { data: "2026-05-15", evento: "Ensaio Final - Passagem de Som" },
+  { data: "2026-05-17", evento: "Concerto de Páscoa" },
 ];
+
 
 
 const meses = [
