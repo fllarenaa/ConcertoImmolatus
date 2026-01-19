@@ -89,7 +89,7 @@ export const compromissosData: Compromisso[] = [
           tenor: "/audios/Alleluia/Tenor.mp4",
           baixo: "/audios/Alleluia/Baixo.mp4",
         },
-        videoYoutubeId: "mQ1myt4-gX4?si=0zDfCIDT3OuHINfE",
+        videoYoutubeId: "SAdg3mZ5LBc?si=Uue-3yXkr90j7z_P",
       },
         {
         id: "m6",
